@@ -1,0 +1,14 @@
+@tailwind base;
+@layer base {
+    h3 {
+        @apply text-2xl;
+        @apply font-bold
+      }
+}
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #000;
+    color: #fffefd;
+}
