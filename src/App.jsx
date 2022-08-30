@@ -1,6 +1,5 @@
 import React from "react"
-import {Route, Routes, Link} from 'react-router-dom'
-import './app.css'
+import {Route, Routes} from 'react-router-dom'
 
 import { Navbar, Exchanges, Homepage, Cryptocurrencies, CryptoDetails, News, Footer  } from "./components"
 
