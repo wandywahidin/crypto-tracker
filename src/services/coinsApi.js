@@ -1,8 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const headerAPi = {
-  "X-RapidAPI-Key": import.meta.env.REACT_APP_API_KEY,
-  "X-RapidAPI-Host": import.meta.env.REACT_APP_API_HOST,
+  "X-RapidAPI-Key": "16977112f8msh2a0ee2f194647adp11c00cjsnede71ed8cdc4",
+  "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
 }
 
 const createUrl = (url) => ({url, headers: headerAPi})
